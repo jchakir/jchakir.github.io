@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: var(--tw-font-mono);
+  background-color: #111827; /* bg-gray-900 */
+  color: #84CC16; /* text-green-400 */
+}
+
+body.dark {
+  background-color: #111827;
+  color: #84CC16;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
