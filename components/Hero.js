@@ -1,3 +1,5 @@
+"use client";
+
 import React from 'react';
 import { Github, Linkedin, Twitter, CloudDownload } from 'lucide-react';
 import { TypeAnimation } from 'react-type-animation';

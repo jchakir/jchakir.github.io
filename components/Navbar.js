@@ -1,10 +1,14 @@
+"use client";
+
+import { useState } from 'react';
 import Link from 'next/link';
 import { Terminal } from 'lucide-react';
-import { useRouter } from 'next/router';
 
 const Navbar = () => {
-  const router = useRouter();
-  const activeSection = router.asPath.split('#')[1] || 'about'; // Default to 'about'
+
+  const [activeSection, setActiveSection] = useState('home');
+
+  const handleClick = (section) => { setActiveSection(section); };
 
   return (
     <nav className="fixed top-0 w-full bg-gray-900 border-b border-gray-800 z-50 text-green-400">
@@ -26,6 +30,7 @@ const Navbar = () => {
               <Link
                 key={section}
                 href={`#${section}`}
+                onClick={() => handleClick(section)}
                 className={`hover:text-white transition-colors ${
                   activeSection === section ? 'text-white' : ''
                 }`}

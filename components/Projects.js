@@ -1,3 +1,5 @@
+"use client";
+
 import React from 'react';
 import { Database, ExternalLink, BrainCircuit } from 'lucide-react';
 
