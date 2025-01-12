@@ -27,6 +27,10 @@ a {
   border-top: 1px solid #84CC16;
 }
 
+.navbar-line {
+  border-bottom: 1px solid #84CC16;
+}
+
 .image-jchakir {
   background-image: url("https://avatars.githubusercontent.com/u/105322451");
   background-size: cover; /* Changed 'over' to 'cover' */

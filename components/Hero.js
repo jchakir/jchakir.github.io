@@ -5,7 +5,7 @@ import { TypeAnimation } from 'react-type-animation';
 const Hero = () => {
   return (
     <div className="flex flex-col w-full">
-      <div className="flex-1 bg-gray-800 rounded-lg p-4 text-white">
+      <div className="flex-1 bg-gray-800 rounded-lg p-3 text-white">
         <div className="flex items-center justify-center">
           <TypeAnimation
             sequence={[
@@ -35,35 +35,35 @@ const Hero = () => {
           />
         </div>
       </div>
-      <div className="flex flex-1 space-x-4 bg-gray-800 rounded-lg mt-2 pb-2 text-white flex-wrap items-center justify-center h-screen">
-        <div className="bg-gray-900 rounded-md p-4 mt-2">
+      <div className="flex flex-1 space-x-4 bg-gray-800 rounded-lg mt-2 pb-4 text-white flex-wrap items-center justify-center h-screen">
+        <div className="bg-gray-900 rounded-md p-3 mt-4">
           <a href="https://github.com/jchakir" target="_blank" className="flex items-center space-x-2 hover:text-green-400">
             <Github className="w-5 h-5 text-green-400" />
             <span>GitHub</span>
           </a>
         </div>
-        <div className="bg-gray-900 rounded-md p-4 mt-2">
+        <div className="bg-gray-900 rounded-md p-3 mt-4">
           <a href="https://linkedin.com/in/jchakir" target="_blank" className="flex items-center space-x-2 hover:text-green-400">
             <Linkedin className="w-5 h-5 text-green-400" />
             <span>LinkedIn</span>
           </a>
         </div>
-        <div className="bg-gray-900 rounded-md p-4 mt-2">
+        <div className="bg-gray-900 rounded-md p-3 mt-4">
           <a href="https://x.com/jchakir_" target="_blank" className="flex items-center space-x-2 hover:text-green-400">
             <Twitter className="w-5 h-5 text-green-400" />
             <span>Twitter</span>
           </a>
         </div>
       </div>
-      <div className="flex flex-1 space-x-4 bg-gray-800 rounded-lg mt-2 pb-2 text-white flex-wrap items-center justify-center h-screen">
-        <div className="bg-gray-900 rounded-md p-4 mt-2">
-          <a href="/resume/	Software_Engineer_Jaouad_CHAKIR.pdf" className="flex items-center space-x-2 hover:text-green-400" download>
+      <div className="flex flex-1 space-x-4 bg-gray-800 rounded-lg mt-2 pb-4 text-white flex-wrap items-center justify-center h-screen">
+        <div className="bg-gray-900 rounded-md p-3 mt-4">
+          <a href="/Software_Engineer_Jaouad_CHAKIR.pdf" className="flex items-center space-x-2 hover:text-green-400" target="_blank">
             <CloudDownload className="w-5 h-5 text-green-400" />
             <span>Resume: Software-Engineer</span>
           </a>
         </div>
-        <div className="bg-gray-900 rounded-md p-4 mt-2">
-          <a href="/resume/Machine_learning_Developer_Jaouad_CHAKIR.pdf" className="flex items-center space-x-2 hover:text-green-400" download>
+        <div className="bg-gray-900 rounded-md p-3 mt-4">
+          <a href="/Machine_learning_Developer_Jaouad_CHAKIR.pdf" className="flex items-center space-x-2 hover:text-green-400" target="_blank">
             <CloudDownload className="w-5 h-5 text-green-400" />
             <span>Resume: Machine-learning</span>
           </a>
