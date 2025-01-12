@@ -12,14 +12,14 @@ import Languages from '../components/Languages';
 export default function Home() {
   return (
     <Layout>
-      <div className="flex flex-col md:flex-row gap-8 py-8">
-        <div className="md:w-6/10">
+      <div id="home" className="scroll-mt-20 flex gap-4 mb-6 pt-2 pb-2 flex-wrap mt-[30px]">
+        <div className="pt-[50px]">
           <ImageSection />
         </div>
-        <div className="md:w-6/10">
+        <div className="w-3/10">
           <Contact />
         </div>
-        <div className="md:w-6/10">
+        <div className="flex-1">
           <Hero />
         </div>
       </div>

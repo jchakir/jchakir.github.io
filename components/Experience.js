@@ -1,4 +1,5 @@
 import React from 'react';
+import { Building2 } from 'lucide-react';
 
 const Experience = () => {
   const experienceDetails = [
@@ -22,8 +23,11 @@ const Experience = () => {
   ];
 
   return (
-    <div className="bg-gray-800 rounded-lg p-6 text-white h-full">
-      <h2 className="text-2xl font-bold mb-6 text-green-400">Experience</h2>
+    <div id="experience" className="scroll-mt-20 bg-gray-800 rounded-lg p-4 text-white h-full">
+      <h2 className="flex text-2xl font-bold mb-4 text-green-400">
+        <Building2 className="w-6 h-6 mr-2" />
+        Experience
+      </h2>
       <div className="space-y-4">
         {experienceDetails.map((exp, index) => (
           <div key={index} className="bg-gray-900 rounded-md p-4">

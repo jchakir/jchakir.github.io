@@ -12,10 +12,17 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <Terminal className="w-6 h-6" />
-            <span className="text-xl font-bold">jchakir@portfolio:~$</span>
+              <Link href="#home" className="inline">
+                <span className="text-xl font-bold">
+                  jchakir
+                  <span className="text-white text-2xl">@</span>
+                  portfolio
+                  <span className="text-white">:</span>
+                  ~$</span>
+              </Link>
           </div>
           <div className="hidden md:flex space-x-6">
-            {['about', 'education', 'experience', 'projects', 'skills', 'contact'].map((section) => (
+            {['home', 'education', 'experience', 'projects', 'skills', 'languages'].map((section) => (
               <Link
                 key={section}
                 href={`#${section}`}
@@ -23,7 +30,7 @@ const Navbar = () => {
                   activeSection === section ? 'text-white' : ''
                 }`}
               >
-                ./{section}
+                {section}
               </Link>
             ))}
           </div>
