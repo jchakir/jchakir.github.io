@@ -35,9 +35,16 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
-## Build for Github Pages
+## Build
 
 ```
-NODE_ENV=production npm run build
+npm run build
+```
+
+make sure to have the following files in docs
+  - empty `docs/.nojekyll` and `docs/CNAME` contain <DOMAIN NAME LINKED TO GITHUB PAGES>
+```
+touch docs/.nojekyll
+echo jchakir.com > docs/CNAME
 ```
 
