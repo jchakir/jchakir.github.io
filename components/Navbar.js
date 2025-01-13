@@ -35,7 +35,7 @@ const Navbar = () => {
                   activeSection === section ? 'text-white' : ''
                 }`}
               >
-                {section}
+                {activeSection === section ? `./${section}` : section}
               </Link>
             ))}
           </div>
