@@ -6,14 +6,11 @@ import { TypeAnimation } from 'react-type-animation';
 
 const Hero = () => {
   return (
-    <div className="flex flex-col w-full">
-      <div className="flex-1 bg-gray-800 rounded-lg p-3 text-white">
+    <div className="flex flex-col w-full min-w-[200px]">
+      <div className="flex flex-col bg-gray-800 rounded-lg p-3 text-white items-center justify-center">
         <div className="flex items-center justify-center">
           <TypeAnimation
-            sequence={[
-              'Jaouad Chakir',
-              1000, // Wait 1s after type
-            ]}
+            sequence={['Jaouad Chakir', 1000]} // Wait 1s after type
             speed={1}
             style={{ fontSize: '1.25em', marginBottom: '10px' }}
             repeat={false}
@@ -24,12 +21,8 @@ const Hero = () => {
             sequence={[
               'Software Engineer',
               2000,
-              // 'Machine Learning Developer | Software Engineer',
-              // 1000,
               'Machine Learning Developer',
               2000,
-              // 'Software Engineer | Machine Learning Developer',
-              // 1000,
             ]}
             speed={1}
             style={{ fontSize: '1em', color: '#84CC16' }}

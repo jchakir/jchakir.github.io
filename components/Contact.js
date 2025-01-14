@@ -5,7 +5,7 @@ import { Mail, Phone, MapPin, Github, Linkedin } from 'lucide-react';
 
 const Contact = () => {
   return (
-    <div className="flex bg-gray-800 rounded-lg p-4 text-white h-full w-full items-center justify-center">
+    <div className="flex bg-gray-800 rounded-lg p-4 text-white  w-full items-center justify-center">
       <div className="space-y-4">
         <div className="bg-gray-900 rounded-md p-4">
           <div className="flex items-center space-x-2">

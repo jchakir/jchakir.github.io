@@ -14,8 +14,8 @@ import Languages from '../components/Languages';
 export default function Home() {
   return (
     <Layout>
-      <div id="home" className="scroll-mt-20 flex gap-4 mb-6 pt-2 pb-2 flex-wrap mt-[30px]">
-        <div className="flex pt-[50px] items-center justify-center">
+      <div id="home" className="scroll-mt-20 flex gap-2 mb-6 pt-2 pb-2 flex-wrap mt-[30px] justify-center items-center">
+        <div className="flex items-center justify-center">
           <ImageSection />
         </div>
         <div className="w-3/10">
