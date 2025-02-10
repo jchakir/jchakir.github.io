@@ -10,6 +10,12 @@ const Contact = () => {
         <div className="bg-gray-900 rounded-md p-4">
           <div className="flex items-center space-x-2">
             <Mail className="w-5 h-5 text-green-400" />
+            <span>jchakir@student.1337.ma</span>
+          </div>
+        </div>
+        <div className="bg-gray-900 rounded-md p-4">
+          <div className="flex items-center space-x-2">
+            <Mail className="w-5 h-5 text-green-400" />
             <span>jawadchakir1419@gmail.com</span>
           </div>
         </div>
