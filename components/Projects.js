@@ -75,9 +75,9 @@ const Projects = () => {
       link: 'https://github.com/jchakir/Tweets-NLP',
     },
     {
-      title: "CHURN-Bank-Customers: Banking Data Processing and Model Training",
+      title: "Churn: Bank Data Processing and Models Training",
       description:
-        "Built a data pipeline for banking data preprocessing and trained multiple ML models, including Naive Bayes, Random Forest, and MLP.",
+        "Banking data preprocessing and training multiple Machine Learning models, including Naive Bayes, Random Forest, and MLP.",
       tech: ["Scikit-Learn", "Keras", "TensorFlow", "Machine Learning", "Data Cleaning"],
       link: "https://github.com/jchakir/CHURN-Bank-Customers"
     },
