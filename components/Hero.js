@@ -52,13 +52,13 @@ const Hero = () => {
       </div>
       <div className="flex flex-1 space-x-4 bg-gray-800 rounded-lg mt-2 pb-4 text-white flex-wrap items-center justify-center h-screen">
         <div className="bg-gray-900 rounded-md p-3 mt-4">
-          <a href="/Software_Engineer_Jaouad_CHAKIR.pdf" className="flex items-center space-x-2 hover:text-green-400" target="_blank">
+          <a href="/Software_Engineer__Jaouad_CHAKIR.pdf" className="flex items-center space-x-2 hover:text-green-400" target="_blank">
             <CloudDownload className="w-5 h-5 text-green-400" />
             <span>Resume: Software-Engineer</span>
           </a>
         </div>
         <div className="bg-gray-900 rounded-md p-3 mt-4">
-          <a href="/Machine_learning_Developer_Jaouad_CHAKIR.pdf" className="flex items-center space-x-2 hover:text-green-400" target="_blank">
+          <a href="/Machine_Learning_Developer__Jaouad_CHAKIR.pdf" className="flex items-center space-x-2 hover:text-green-400" target="_blank">
             <CloudDownload className="w-5 h-5 text-green-400" />
             <span>Resume: Machine-learning</span>
           </a>

@@ -74,6 +74,13 @@ const Projects = () => {
       tech: ['Decision-Tree', 'Naive-Bayes', 'NLTK', 'TFIDF', 'Python'],
       link: 'https://github.com/jchakir/Tweets-NLP',
     },
+    {
+      title: "CHURN-Bank-Customers: Banking Data Processing and Model Training",
+      description:
+        "Built a data pipeline for banking data preprocessing and trained multiple ML models, including Naive Bayes, Random Forest, and MLP.",
+      tech: ["Scikit-Learn", "Keras", "TensorFlow", "Machine Learning", "Data Cleaning"],
+      link: "https://github.com/jchakir/CHURN-Bank-Customers"
+    },
   ];
 
   return (
