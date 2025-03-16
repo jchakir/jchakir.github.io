@@ -28,7 +28,7 @@ const Contact = () => {
         <div className="bg-gray-900 rounded-md p-3">
           <div className="flex items-center space-x-2">
             <MapPin className="w-5 h-5 text-green-400" />
-            <span>Ben Guerir, Morocco</span>
+            <span>Morocco</span>
           </div>
         </div>
       </div>
