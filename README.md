@@ -42,7 +42,7 @@ npm run build
 ```
 
 make sure to have the following files in docs
-  - empty `docs/.nojekyll` and `docs/CNAME` contain <DOMAIN NAME LINKED TO GITHUB PAGES>
+  - empty `docs/.nojekyll` and `docs/CNAME` contain < DOMAIN NAME LINKED TO GITHUB PAGES >
 ```
 touch docs/.nojekyll
 echo jchakir.com > docs/CNAME
